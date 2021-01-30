@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0736D26B36C7F0C5EABBC3384679C733 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B9F64AE900BDA046D7248CF5479899 /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214B2B5BC753EDBC14F7ACB4DE7C8BED /* Kanna-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F430EBE0133E91671B29BC283363EE3F /* Kanna-macOS-dummy.m */; };
+		34D9DA9253282AE59B21739B2C4D1916 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD37BEF72C79DFDE6C0388551739BEF /* Kanna.swift */; };
+		39E69CFAC98407139191080BD1744152 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B0DF7076336970032CF05F930CFFB /* Deprecated.swift */; };
+		47D819B25E85565269F3952D69F34C3C /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B0DF7076336970032CF05F930CFFB /* Deprecated.swift */; };
+		6599B9713A2FA9D3A3632D7FF5FBA61A /* Kanna-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDE9AC6234A3C8FFDDB2DC48301F89 /* Kanna-iOS-dummy.m */; };
+		6895B08E0858541D850E004F612E568A /* Kanna-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E54E7A1BED1CE427BDC14B4DF2BF8F /* Kanna-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EAF8C62E0E5E653B73F93DFEE140E82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */; };
+		7F5D8FB5FDAB82E770339C6893FA342B /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF02249F85BD7136900A6A8758027D5 /* CSS.swift */; };
+		8B5AF450E27A298F4C9828681D028A15 /* Pods-CovidLive (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A28FF7FB02CB4B449B8EDF9C3A150711 /* Pods-CovidLive (iOS)-dummy.m */; };
+		9A24281A7F19B15CCDC653D698966F24 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD37BEF72C79DFDE6C0388551739BEF /* Kanna.swift */; };
+		9FF49D1A4D6F4164A950C5EB8B8FA58D /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53B7177056F3006B6AA4AD0A1F2729 /* libxmlParserOption.swift */; };
+		A5FBDB4087CE639B43320BF022035868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		A6516BA613589722C89B966E3457A8FE /* Pods-CovidLive (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DCA5FF21310C5285AC5C3B65EB9E4A /* Pods-CovidLive (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4DC6998827E540BD739B6B5478636FD /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2706D611098EE9FEBB722E3B779003C /* libxmlHTMLNode.swift */; };
+		BD6DE396D2AA1D518D88F18882D0D177 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF02249F85BD7136900A6A8758027D5 /* CSS.swift */; };
+		BDE5887718ABDC358A70CA3E41FFFB67 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6CB011A0E035D0601BF72E115EFFA /* libxmlHTMLDocument.swift */; };
+		C306856B472DB51C7C62431244C2F872 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53B7177056F3006B6AA4AD0A1F2729 /* libxmlParserOption.swift */; };
+		C32906CC8CA8735F2CD6173D36585797 /* Kanna-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8B225E20B3C58A0C9BD8541DA4AA30 /* Kanna-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87792F49819E8692043647F216E3827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		CBD37E6D55B2461E0B3C716BBC30F6B9 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B9F64AE900BDA046D7248CF5479899 /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF518BDE62C8AA606FA272AB9D5AD302 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2706D611098EE9FEBB722E3B779003C /* libxmlHTMLNode.swift */; };
+		D84B4739BF7E9FE8A89587A00252F64D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */; };
+		DF3B3E439D1FFE6857AEF00CAD3083CC /* Pods-CovidLive (macOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D75BBEEA71BC2B72159C22C948F4DB1 /* Pods-CovidLive (macOS)-dummy.m */; };
+		E0ABB55BC6B2AEFBC8EECA95C2BC3D3B /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6CB011A0E035D0601BF72E115EFFA /* libxmlHTMLDocument.swift */; };
+		EDC55AF93972E04E623C5B2A602AF82F /* Pods-CovidLive (macOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAF7862F52DB41539654D1A0293C39F /* Pods-CovidLive (macOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD74C0062A7DA16E4F2D22CA30341D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933B0B1F3926A2EEE6FAF32250B0121B;
+			remoteInfo = "Kanna-iOS";
+		};
+		EDF4BE2F4033D94531312A5DE16DB724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8D0AD2632C44DE3101F2C29BB431E3;
+			remoteInfo = "Kanna-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0038EE4FF578028F62B567F0625FB745 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10386B8545BDE4FC34B85D4991438841 /* Pods_CovidLive__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidLive__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A6CB011A0E035D0601BF72E115EFFA /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		21471111E295951A962FE24582FEEA07 /* Pods-CovidLive (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidLive (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		2C2169B5589E5F5F1C2E91753E23D9CA /* Pods-CovidLive (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidLive (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		3133DFEF48A2C2B2BC7C145B77EC802A /* Kanna-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3261E5A5395F45780622405F504B2804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32DDB24EC488E7CE063923CCEF05D3A3 /* Kanna-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Kanna-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		40564A365F644ED78E872A4244BFDED7 /* Pods-CovidLive (macOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidLive (macOS).modulemap"; sourceTree = "<group>"; };
+		49B9F64AE900BDA046D7248CF5479899 /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
+		4AA4C491AFC4545BDCCC01A516713922 /* Kanna-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Kanna-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		508A32E4A4924FB0753EFB800F483A79 /* Kanna-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Kanna-iOS.modulemap"; sourceTree = "<group>"; };
+		59BAF913753CB1C114D58E18E45943F0 /* Pods-CovidLive (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidLive (iOS)-Info.plist"; sourceTree = "<group>"; };
+		59F03DAE9E993DA41DBCCFDDE044B854 /* Kanna-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Kanna-macOS-Info.plist"; path = "../Kanna-macOS/Kanna-macOS-Info.plist"; sourceTree = "<group>"; };
+		5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5B384CFBFA5E5DC28DAF49C4EB05DCB1 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE10CE5B2ACF461D22B0AB3DB4DCEB4 /* Pods-CovidLive (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidLive (iOS).modulemap"; sourceTree = "<group>"; };
+		63B8EC0AB8B3D67DB1FD2E0B0D92D107 /* Pods-CovidLive (macOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidLive (macOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D75BBEEA71BC2B72159C22C948F4DB1 /* Pods-CovidLive (macOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidLive (macOS)-dummy.m"; sourceTree = "<group>"; };
+		6DF02249F85BD7136900A6A8758027D5 /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
+		7ADEFB2C3732B49A3F544F221711426F /* Kanna-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kanna-macOS-prefix.pch"; path = "../Kanna-macOS/Kanna-macOS-prefix.pch"; sourceTree = "<group>"; };
+		7E53B7177056F3006B6AA4AD0A1F2729 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
+		824B0DF7076336970032CF05F930CFFB /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
+		84DDE9AC6234A3C8FFDDB2DC48301F89 /* Kanna-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-iOS-dummy.m"; sourceTree = "<group>"; };
+		93DCA5FF21310C5285AC5C3B65EB9E4A /* Pods-CovidLive (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidLive (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		96EC86A51A715507A855E86E3B4074C6 /* Kanna-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Kanna-macOS.modulemap"; path = "../Kanna-macOS/Kanna-macOS.modulemap"; sourceTree = "<group>"; };
+		9AD37BEF72C79DFDE6C0388551739BEF /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		9B269220B567AEFC71C29A4660BBF0A9 /* Kanna-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Kanna-macOS.release.xcconfig"; path = "../Kanna-macOS/Kanna-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		9CDB5E8578C42098C8E7AC041EC4C661 /* Kanna-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Kanna-macOS.debug.xcconfig"; path = "../Kanna-macOS/Kanna-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28FF7FB02CB4B449B8EDF9C3A150711 /* Pods-CovidLive (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidLive (iOS)-dummy.m"; sourceTree = "<group>"; };
+		A8B71D3AE994F4CEED93BE04F564AA8E /* Pods-CovidLive (macOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidLive (macOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2706D611098EE9FEBB722E3B779003C /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		BC99FBBBBA00C326123D2327AF747077 /* Pods-CovidLive (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CovidLive (iOS)-frameworks.sh"; sourceTree = "<group>"; };
+		CDAF7862F52DB41539654D1A0293C39F /* Pods-CovidLive (macOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidLive (macOS)-umbrella.h"; sourceTree = "<group>"; };
+		D807B82F89EEDD07AFF35651E43FA94B /* Pods-CovidLive (macOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidLive (macOS)-Info.plist"; sourceTree = "<group>"; };
+		DC2E8550CC498DBB509132D172ECB8F3 /* Pods-CovidLive (macOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CovidLive (macOS)-frameworks.sh"; sourceTree = "<group>"; };
+		DFDDE6ECFFE225A85CF6F09022501F6C /* Pods-CovidLive (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidLive (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E706BB0C7A5B8AD5C7283A26F04331BF /* Pods-CovidLive (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidLive (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		E7E54E7A1BED1CE427BDC14B4DF2BF8F /* Kanna-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-iOS-umbrella.h"; sourceTree = "<group>"; };
+		EB0184B52909714433C623FC6402C3C4 /* Pods-CovidLive (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidLive (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC8EA0EC6846DD3C299E16DFF7777439 /* Kanna-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-iOS-Info.plist"; sourceTree = "<group>"; };
+		F2240431E6239B0707DA3474495CFF61 /* Pods_CovidLive__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidLive__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F430EBE0133E91671B29BC283363EE3F /* Kanna-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Kanna-macOS-dummy.m"; path = "../Kanna-macOS/Kanna-macOS-dummy.m"; sourceTree = "<group>"; };
+		F75D5267EDD48450E2D198E5B1520998 /* Pods-CovidLive (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidLive (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		FC8B225E20B3C58A0C9BD8541DA4AA30 /* Kanna-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kanna-macOS-umbrella.h"; path = "../Kanna-macOS/Kanna-macOS-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C2218B1003C4887841E7F563FEE1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FBDB4087CE639B43320BF022035868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B696ED48B1E16F4B9CFF2C781A0BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87792F49819E8692043647F216E3827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6697368D448C48C188A8C76BD2DDEFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84B4739BF7E9FE8A89587A00252F64D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C175D442ADB6462283B56DB1882C05BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAF8C62E0E5E653B73F93DFEE140E82 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C56D08A502AED56BBFDCE43DD52947 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB3B6A16BD9AA87AC0C0867E041D81 /* Pods-CovidLive (iOS) */,
+				A28E4294DB7DA8E0799779BD169B436A /* Pods-CovidLive (macOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31660038A48EA5F471663966436524E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA568B92D73495DD6CCD2F728830558A /* Kanna */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41C052635D3E21350AC08C5F316759F6 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */,
+				41C052635D3E21350AC08C5F316759F6 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AFB3B6A16BD9AA87AC0C0867E041D81 /* Pods-CovidLive (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				5FE10CE5B2ACF461D22B0AB3DB4DCEB4 /* Pods-CovidLive (iOS).modulemap */,
+				DFDDE6ECFFE225A85CF6F09022501F6C /* Pods-CovidLive (iOS)-acknowledgements.markdown */,
+				EB0184B52909714433C623FC6402C3C4 /* Pods-CovidLive (iOS)-acknowledgements.plist */,
+				A28FF7FB02CB4B449B8EDF9C3A150711 /* Pods-CovidLive (iOS)-dummy.m */,
+				BC99FBBBBA00C326123D2327AF747077 /* Pods-CovidLive (iOS)-frameworks.sh */,
+				59BAF913753CB1C114D58E18E45943F0 /* Pods-CovidLive (iOS)-Info.plist */,
+				93DCA5FF21310C5285AC5C3B65EB9E4A /* Pods-CovidLive (iOS)-umbrella.h */,
+				21471111E295951A962FE24582FEEA07 /* Pods-CovidLive (iOS).debug.xcconfig */,
+				2C2169B5589E5F5F1C2E91753E23D9CA /* Pods-CovidLive (iOS).release.xcconfig */,
+			);
+			name = "Pods-CovidLive (iOS)";
+			path = "Target Support Files/Pods-CovidLive (iOS)";
+			sourceTree = "<group>";
+		};
+		A28E4294DB7DA8E0799779BD169B436A /* Pods-CovidLive (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				40564A365F644ED78E872A4244BFDED7 /* Pods-CovidLive (macOS).modulemap */,
+				63B8EC0AB8B3D67DB1FD2E0B0D92D107 /* Pods-CovidLive (macOS)-acknowledgements.markdown */,
+				A8B71D3AE994F4CEED93BE04F564AA8E /* Pods-CovidLive (macOS)-acknowledgements.plist */,
+				6D75BBEEA71BC2B72159C22C948F4DB1 /* Pods-CovidLive (macOS)-dummy.m */,
+				DC2E8550CC498DBB509132D172ECB8F3 /* Pods-CovidLive (macOS)-frameworks.sh */,
+				D807B82F89EEDD07AFF35651E43FA94B /* Pods-CovidLive (macOS)-Info.plist */,
+				CDAF7862F52DB41539654D1A0293C39F /* Pods-CovidLive (macOS)-umbrella.h */,
+				F75D5267EDD48450E2D198E5B1520998 /* Pods-CovidLive (macOS).debug.xcconfig */,
+				E706BB0C7A5B8AD5C7283A26F04331BF /* Pods-CovidLive (macOS).release.xcconfig */,
+			);
+			name = "Pods-CovidLive (macOS)";
+			path = "Target Support Files/Pods-CovidLive (macOS)";
+			sourceTree = "<group>";
+		};
+		BA568B92D73495DD6CCD2F728830558A /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				6DF02249F85BD7136900A6A8758027D5 /* CSS.swift */,
+				824B0DF7076336970032CF05F930CFFB /* Deprecated.swift */,
+				49B9F64AE900BDA046D7248CF5479899 /* Kanna.h */,
+				9AD37BEF72C79DFDE6C0388551739BEF /* Kanna.swift */,
+				20A6CB011A0E035D0601BF72E115EFFA /* libxmlHTMLDocument.swift */,
+				B2706D611098EE9FEBB722E3B779003C /* libxmlHTMLNode.swift */,
+				7E53B7177056F3006B6AA4AD0A1F2729 /* libxmlParserOption.swift */,
+				D5EB2FD03F58664FEE7569155F51D082 /* Support Files */,
+			);
+			path = Kanna;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
+				31660038A48EA5F471663966436524E8 /* Pods */,
+				E1975C1B6228B5313D84CFC14A46B89B /* Products */,
+				00C56D08A502AED56BBFDCE43DD52947 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EB2FD03F58664FEE7569155F51D082 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				508A32E4A4924FB0753EFB800F483A79 /* Kanna-iOS.modulemap */,
+				84DDE9AC6234A3C8FFDDB2DC48301F89 /* Kanna-iOS-dummy.m */,
+				EC8EA0EC6846DD3C299E16DFF7777439 /* Kanna-iOS-Info.plist */,
+				3133DFEF48A2C2B2BC7C145B77EC802A /* Kanna-iOS-prefix.pch */,
+				E7E54E7A1BED1CE427BDC14B4DF2BF8F /* Kanna-iOS-umbrella.h */,
+				32DDB24EC488E7CE063923CCEF05D3A3 /* Kanna-iOS.debug.xcconfig */,
+				4AA4C491AFC4545BDCCC01A516713922 /* Kanna-iOS.release.xcconfig */,
+				96EC86A51A715507A855E86E3B4074C6 /* Kanna-macOS.modulemap */,
+				F430EBE0133E91671B29BC283363EE3F /* Kanna-macOS-dummy.m */,
+				59F03DAE9E993DA41DBCCFDDE044B854 /* Kanna-macOS-Info.plist */,
+				7ADEFB2C3732B49A3F544F221711426F /* Kanna-macOS-prefix.pch */,
+				FC8B225E20B3C58A0C9BD8541DA4AA30 /* Kanna-macOS-umbrella.h */,
+				9CDB5E8578C42098C8E7AC041EC4C661 /* Kanna-macOS.debug.xcconfig */,
+				9B269220B567AEFC71C29A4660BBF0A9 /* Kanna-macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kanna-iOS";
+			sourceTree = "<group>";
+		};
+		DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3261E5A5395F45780622405F504B2804 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1975C1B6228B5313D84CFC14A46B89B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B384CFBFA5E5DC28DAF49C4EB05DCB1 /* Kanna.framework */,
+				0038EE4FF578028F62B567F0625FB745 /* Kanna.framework */,
+				10386B8545BDE4FC34B85D4991438841 /* Pods_CovidLive__iOS_.framework */,
+				F2240431E6239B0707DA3474495CFF61 /* Pods_CovidLive__macOS_.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A18F8B507BB7B16B8CFC1106244B87A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32906CC8CA8735F2CD6173D36585797 /* Kanna-macOS-umbrella.h in Headers */,
+				CBD37E6D55B2461E0B3C716BBC30F6B9 /* Kanna.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9B9A3107E9A0335E6C3955C4F08841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC55AF93972E04E623C5B2A602AF82F /* Pods-CovidLive (macOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F093C5EC5B85CDA4642ADA7CEBECC8DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6516BA613589722C89B966E3457A8FE /* Pods-CovidLive (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C03864598B57319AECC0FB0CE7C7BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895B08E0858541D850E004F612E568A /* Kanna-iOS-umbrella.h in Headers */,
+				0736D26B36C7F0C5EABBC3384679C733 /* Kanna.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A8D0AD2632C44DE3101F2C29BB431E3 /* Kanna-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DB6AB6F5BF97CACFC42B697D3392A4 /* Build configuration list for PBXNativeTarget "Kanna-macOS" */;
+			buildPhases = (
+				2A18F8B507BB7B16B8CFC1106244B87A /* Headers */,
+				995A8250912EFF52E9C1323B1B48FF56 /* Sources */,
+				C175D442ADB6462283B56DB1882C05BB /* Frameworks */,
+				FE7E71692C45D15A76B3E87ECD831EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanna-macOS";
+			productName = "Kanna-macOS";
+			productReference = 0038EE4FF578028F62B567F0625FB745 /* Kanna.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		933B0B1F3926A2EEE6FAF32250B0121B /* Kanna-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAFFCAC2D80153E8EB271F4DA7B341B /* Build configuration list for PBXNativeTarget "Kanna-iOS" */;
+			buildPhases = (
+				F4C03864598B57319AECC0FB0CE7C7BF /* Headers */,
+				D9C60C83E237E4B9CFD6A94730654B97 /* Sources */,
+				11C2218B1003C4887841E7F563FEE1CE /* Frameworks */,
+				BC38EEE1B46046F57810EFEA29C535FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanna-iOS";
+			productName = "Kanna-iOS";
+			productReference = 5B384CFBFA5E5DC28DAF49C4EB05DCB1 /* Kanna.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B58E07B243B5EEBCC900EF5D4B4CB9AE /* Pods-CovidLive (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2EBF998C6E3C6F6BFAD6197ECD5DF2 /* Build configuration list for PBXNativeTarget "Pods-CovidLive (macOS)" */;
+			buildPhases = (
+				EC9B9A3107E9A0335E6C3955C4F08841 /* Headers */,
+				1706058D59E5763BC6A6EF5EFB0DE083 /* Sources */,
+				6697368D448C48C188A8C76BD2DDEFFF /* Frameworks */,
+				30DD20C38B1BFB4F70E1ED0017E4D66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879C33BF8911DCCD00050C7381251A01 /* PBXTargetDependency */,
+			);
+			name = "Pods-CovidLive (macOS)";
+			productName = "Pods-CovidLive (macOS)";
+			productReference = F2240431E6239B0707DA3474495CFF61 /* Pods_CovidLive__macOS_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F85AD3D087F7A61992FCB8A4ACD4A76A /* Pods-CovidLive (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98528041A5B9F376AED4B2801DD0A35A /* Build configuration list for PBXNativeTarget "Pods-CovidLive (iOS)" */;
+			buildPhases = (
+				F093C5EC5B85CDA4642ADA7CEBECC8DD /* Headers */,
+				32610C9505D4177C3AD67D4D4F0931F2 /* Sources */,
+				52B696ED48B1E16F4B9CFF2C781A0BFB /* Frameworks */,
+				D0AB1668F8DBCF4C0A2224A50A6940C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50BBEB03D6A0E4035EE61541671A8D3C /* PBXTargetDependency */,
+			);
+			name = "Pods-CovidLive (iOS)";
+			productName = "Pods-CovidLive (iOS)";
+			productReference = 10386B8545BDE4FC34B85D4991438841 /* Pods_CovidLive__iOS_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E1975C1B6228B5313D84CFC14A46B89B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933B0B1F3926A2EEE6FAF32250B0121B /* Kanna-iOS */,
+				6A8D0AD2632C44DE3101F2C29BB431E3 /* Kanna-macOS */,
+				F85AD3D087F7A61992FCB8A4ACD4A76A /* Pods-CovidLive (iOS) */,
+				B58E07B243B5EEBCC900EF5D4B4CB9AE /* Pods-CovidLive (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DD20C38B1BFB4F70E1ED0017E4D66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38EEE1B46046F57810EFEA29C535FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AB1668F8DBCF4C0A2224A50A6940C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7E71692C45D15A76B3E87ECD831EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1706058D59E5763BC6A6EF5EFB0DE083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3B3E439D1FFE6857AEF00CAD3083CC /* Pods-CovidLive (macOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32610C9505D4177C3AD67D4D4F0931F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5AF450E27A298F4C9828681D028A15 /* Pods-CovidLive (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995A8250912EFF52E9C1323B1B48FF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5D8FB5FDAB82E770339C6893FA342B /* CSS.swift in Sources */,
+				39E69CFAC98407139191080BD1744152 /* Deprecated.swift in Sources */,
+				214B2B5BC753EDBC14F7ACB4DE7C8BED /* Kanna-macOS-dummy.m in Sources */,
+				34D9DA9253282AE59B21739B2C4D1916 /* Kanna.swift in Sources */,
+				E0ABB55BC6B2AEFBC8EECA95C2BC3D3B /* libxmlHTMLDocument.swift in Sources */,
+				CF518BDE62C8AA606FA272AB9D5AD302 /* libxmlHTMLNode.swift in Sources */,
+				9FF49D1A4D6F4164A950C5EB8B8FA58D /* libxmlParserOption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C60C83E237E4B9CFD6A94730654B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6DE396D2AA1D518D88F18882D0D177 /* CSS.swift in Sources */,
+				47D819B25E85565269F3952D69F34C3C /* Deprecated.swift in Sources */,
+				6599B9713A2FA9D3A3632D7FF5FBA61A /* Kanna-iOS-dummy.m in Sources */,
+				9A24281A7F19B15CCDC653D698966F24 /* Kanna.swift in Sources */,
+				BDE5887718ABDC358A70CA3E41FFFB67 /* libxmlHTMLDocument.swift in Sources */,
+				B4DC6998827E540BD739B6B5478636FD /* libxmlHTMLNode.swift in Sources */,
+				C306856B472DB51C7C62431244C2F872 /* libxmlParserOption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50BBEB03D6A0E4035EE61541671A8D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kanna-iOS";
+			target = 933B0B1F3926A2EEE6FAF32250B0121B /* Kanna-iOS */;
+			targetProxy = AD74C0062A7DA16E4F2D22CA30341D8F /* PBXContainerItemProxy */;
+		};
+		879C33BF8911DCCD00050C7381251A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kanna-macOS";
+			target = 6A8D0AD2632C44DE3101F2C29BB431E3 /* Kanna-macOS */;
+			targetProxy = EDF4BE2F4033D94531312A5DE16DB724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C261B569C86287701B011B3D53F025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2169B5589E5F5F1C2E91753E23D9CA /* Pods-CovidLive (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidLive (iOS)/Pods-CovidLive (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidLive (iOS)/Pods-CovidLive (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2175289FBAECD2F272B3992F38400D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDB5E8578C42098C8E7AC041EC4C661 /* Kanna-macOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna-macOS/Kanna-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna-macOS/Kanna-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Kanna-macOS/Kanna-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EE67093573E44C8D49EC819657808AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75D5267EDD48450E2D198E5B1520998 /* Pods-CovidLive (macOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidLive (macOS)/Pods-CovidLive (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidLive (macOS)/Pods-CovidLive (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EEC259899B22ED52A4BA2EF1C691D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DDB24EC488E7CE063923CCEF05D3A3 /* Kanna-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna-iOS/Kanna-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna-iOS/Kanna-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kanna-iOS/Kanna-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FA6A7E86E8F4DED892476AC1A2545EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B269220B567AEFC71C29A4660BBF0A9 /* Kanna-macOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna-macOS/Kanna-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna-macOS/Kanna-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Kanna-macOS/Kanna-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BDB8CCC60810F6520F53533C95A5311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E706BB0C7A5B8AD5C7283A26F04331BF /* Pods-CovidLive (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidLive (macOS)/Pods-CovidLive (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidLive (macOS)/Pods-CovidLive (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92236969D2CAE522F4C49923D0CA0A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94D663F2A5E10E3DBA580BD075610152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE2B8E2E2EA1793CBF1F48B83574A469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21471111E295951A962FE24582FEEA07 /* Pods-CovidLive (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidLive (iOS)/Pods-CovidLive (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidLive (iOS)/Pods-CovidLive (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E302E474FCD2182AFD8C4FE1C43EE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA4C491AFC4545BDCCC01A516713922 /* Kanna-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna-iOS/Kanna-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna-iOS/Kanna-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kanna-iOS/Kanna-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D663F2A5E10E3DBA580BD075610152 /* Debug */,
+				92236969D2CAE522F4C49923D0CA0A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2EBF998C6E3C6F6BFAD6197ECD5DF2 /* Build configuration list for PBXNativeTarget "Pods-CovidLive (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE67093573E44C8D49EC819657808AF /* Debug */,
+				8BDB8CCC60810F6520F53533C95A5311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAFFCAC2D80153E8EB271F4DA7B341B /* Build configuration list for PBXNativeTarget "Kanna-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEC259899B22ED52A4BA2EF1C691D0C /* Debug */,
+				E302E474FCD2182AFD8C4FE1C43EE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98528041A5B9F376AED4B2801DD0A35A /* Build configuration list for PBXNativeTarget "Pods-CovidLive (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2B8E2E2EA1793CBF1F48B83574A469 /* Debug */,
+				03C261B569C86287701B011B3D53F025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DB6AB6F5BF97CACFC42B697D3392A4 /* Build configuration list for PBXNativeTarget "Kanna-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175289FBAECD2F272B3992F38400D3F /* Debug */,
+				2FA6A7E86E8F4DED892476AC1A2545EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
