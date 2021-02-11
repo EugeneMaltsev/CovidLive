@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
-
-
+  
+  
 struct ContentView: View {
     var body: some View {
-        Text(covid.getAPI())
-            .font(.title)
-            .padding(0.0)
+        covid.getAPI(completionHandler2: { (covidProps: Array<CovidProperties>?) -> Void in
+            DispatchQueue.main.async {
+                
+                     }
+        })
+        return Text("")
     }
 }
 

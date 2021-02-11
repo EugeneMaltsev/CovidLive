@@ -15,6 +15,3 @@ var body: some Scene {
         }
     }
 }
-
-
-

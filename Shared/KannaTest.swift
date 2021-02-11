@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct covidProperties: Codable {
+struct CovidProperties: Codable {
     var confirmed:Int?
     var deaths:Int?
     var recovered:Int?
@@ -22,63 +22,47 @@ struct covidProperties: Codable {
 
 class Covid {
     
-    func getAPI () -> String {
-        
-        var json = [covidProperties]()
-        
-        let headers = [
+    func getAPI(completionHandler2 handler2: @escaping (Array<CovidProperties>?) -> Void) -> Void {
+        var request = URLRequest(url: URL(string: "https://covid-19-data.p.rapidapi.com/totala?format=json")!)
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = [
             "x-rapidapi-key": "52254454a3mshf50d9c988705d2fp134e72jsndfee2fd06590",
             "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
         ]
         
-        let request = NSMutableURLRequest(url: NSURL(string: "https://covid-19-data.p.rapidapi.com/totals?format=json")! as URL,
-                                                cachePolicy: .useProtocolCachePolicy,
-                                            timeoutInterval: 10.0)
-        
-        
-        request.httpMethod = "GET"
-        request.allHTTPHeaderFields = headers
-        let session = URLSession.shared
-        
-
-        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
-            if (error != nil) {
-//                print(error!) // Don't forget change the unwrap
-            } else {
-                let httpResponse = response as? HTTPURLResponse
-//                print(httpResponse!) // Don't forget change the unwrap
+        let dataTaskCompletionHandler = { (data: Data?, response: URLResponse?, error: Error?) -> Void in
+            guard error == nil else {
+                print("[ERROR]: \(error!)")
+                handler2(nil)
+                return
             }
-                
-//            var result:covidProperties?
-            var result = [covidProperties]()
-
-
-            do {
-                result = try JSONDecoder().decode(Array<covidProperties>.self, from: data!)
-                
-            } catch {
-                print("FAILED TO CONVERT: \(error)")
+            guard let httpResponse = response as? HTTPURLResponse else {
+                print("[UNEXPECTED RESPONSE]")
+                handler2(nil)
+                return
             }
-            
-
-//            guard let json = result else {
-//                return
-//            }
-
-//            result.append(contentsOf:json)
-//            print(json.deaths)
-//            print(result.description)
+            guard httpResponse.statusCode == 200 else {
+                print("[UNEXPECTED STATUS CODE]: \(httpResponse.statusCode)")
+                handler2(nil)
+                return
+            }
+            guard let data = data else {
+                print("[NO RESPONSE DATA]")
+                handler2(nil)
+                return
+            }
+            guard let result = try? JSONDecoder().decode(Array<CovidProperties>.self, from: data) else {
+                print("[UNEXPECTED RESPONSE DATA]")
+                handler2(nil)
+                return
+            }
+            handler2(result)
+        }
         
-        })
-        
-//        print(json)
+        let dataTask = URLSession.shared.dataTask(with: request, completionHandler: dataTaskCompletionHandler)
         dataTask.resume()
-        
-        print(session)
-        return "Hey"
     }
-    
-}
 
+}
 
 let covid = Covid()
